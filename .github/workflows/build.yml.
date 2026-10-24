@@ -18,7 +18,7 @@ jobs:
           gradle-version: '8.9'
       - name: Descompactar o projeto
         run: |
-          unzip -q jarvis-palmas-projeto.zip
+          unzip -q .github/workflows/jarvis-palmas-projeto.zip
           ls jarvis-clap
       - name: Baixar modelo Vosk pequeno
         working-directory: jarvis-clap
